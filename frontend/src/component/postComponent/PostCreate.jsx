@@ -15,9 +15,9 @@ const PostCreate = () => {
     readTime: 0
   });
 
-  // Make sure the cookie name matches the one you set in your backend
+
   const [cookies] = useCookies(['blog-token']);
-  console.log('Cookies:', cookies); // Log cookies to ensure token is present
+  console.log('Cookies:', cookies); 
 
   const [loading, setLoading] = useState(false);
 
